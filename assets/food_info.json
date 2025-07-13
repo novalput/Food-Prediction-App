@@ -1,0 +1,810 @@
+[
+  {
+    "label": "Apple pie",
+    "nama": "Apple Pie",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Kue pai berisi apel, gula, dan kayu manis. Disajikan sebagai makanan penutup."
+  },
+  {
+    "label": "Baby back ribs",
+    "nama": "Baby Back Ribs",
+    "kategori": "Daging / BBQ",
+    "status_halal": "Tergantung bahan (daging halal dan tanpa alkohol)",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Iga babi muda yang dipanggang dengan saus BBQ. Populer di Amerika."
+  },
+  {
+    "label": "Baklava",
+    "nama": "Baklava",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "Turki / Timur Tengah",
+    "deskripsi": "Kue berlapis pastry tipis, kacang, dan sirup manis."
+  },
+  {
+    "label": "Beef carpaccio",
+    "nama": "Beef Carpaccio",
+    "kategori": "Daging / Appetizer",
+    "status_halal": "Tergantung bahan (daging halal dan tanpa alkohol)",
+    "asal": "Italia",
+    "deskripsi": "Irisan tipis daging sapi mentah, disajikan dengan minyak zaitun dan lemon."
+  },
+  {
+    "label": "Beef tartare",
+    "nama": "Beef Tartare",
+    "kategori": "Daging / Appetizer",
+    "status_halal": "Tergantung bahan (daging halal dan tanpa alkohol)",
+    "asal": "Perancis",
+    "deskripsi": "Daging sapi mentah cincang, dicampur bumbu dan telur mentah."
+  },
+  {
+    "label": "Beet salad",
+    "nama": "Beet Salad",
+    "kategori": "Salad / Sayuran",
+    "status_halal": "Halal",
+    "asal": "-",
+    "deskripsi": "Salad berbahan dasar bit, sering dicampur keju dan kacang."
+  },
+  {
+    "label": "Beignets",
+    "nama": "Beignets",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "Perancis",
+    "deskripsi": "Donat goreng khas Perancis, ditaburi gula bubuk."
+  },
+  {
+    "label": "Bibimbap",
+    "nama": "Bibimbap",
+    "kategori": "Makanan utama / Nasi",
+    "status_halal": "Tergantung bahan",
+    "asal": "Korea",
+    "deskripsi": "Nasi campur Korea dengan sayuran, daging, telur, dan saus gochujang."
+  },
+  {
+    "label": "Bread pudding",
+    "nama": "Bread Pudding",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "Eropa",
+    "deskripsi": "Puding roti dengan susu, telur, dan gula."
+  },
+  {
+    "label": "Breakfast burrito",
+    "nama": "Breakfast Burrito",
+    "kategori": "Makanan utama / Roti",
+    "status_halal": "Tergantung bahan",
+    "asal": "Meksiko / Amerika",
+    "deskripsi": "Tortilla berisi telur, daging, keju, dan sayuran."
+  },
+  {
+    "label": "Bruschetta",
+    "nama": "Bruschetta",
+    "kategori": "Appetizer / Roti",
+    "status_halal": "-",
+    "asal": "Italia",
+    "deskripsi": "Roti panggang dengan topping tomat, bawang putih, dan minyak zaitun."
+  },
+  {
+    "label": "Caesar salad",
+    "nama": "Caesar Salad",
+    "kategori": "Salad",
+    "status_halal": "Tergantung bahan",
+    "asal": "Meksiko / Amerika",
+    "deskripsi": "Salad selada romaine, keju parmesan, crouton, dan saus caesar."
+  },
+  {
+    "label": "Cannoli",
+    "nama": "Cannoli",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "Italia",
+    "deskripsi": "Kue gulung renyah berisi krim manis."
+  },
+  {
+    "label": "Caprese salad",
+    "nama": "Caprese Salad",
+    "kategori": "Salad",
+    "status_halal": "Halal",
+    "asal": "Italia",
+    "deskripsi": "Salad tomat, mozzarella, basil, dan minyak zaitun."
+  },
+  {
+    "label": "Carrot cake",
+    "nama": "Carrot Cake",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "-",
+    "deskripsi": "Kue berbahan dasar wortel, kadang diberi kacang dan krim keju."
+  },
+  {
+    "label": "Ceviche",
+    "nama": "Ceviche",
+    "kategori": "Appetizer / Ikan",
+    "status_halal": "Tergantung bahan",
+    "asal": "Amerika Latin",
+    "deskripsi": "Ikan mentah yang diasamkan dengan air jeruk dan dicampur sayuran."
+  },
+  {
+    "label": "Cheesecake",
+    "nama": "Cheesecake",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "Yunani / Amerika",
+    "deskripsi": "Kue keju lembut dengan dasar biskuit."
+  },
+  {
+    "label": "Cheese plate",
+    "nama": "Cheese Plate",
+    "kategori": "Appetizer / Keju",
+    "status_halal": "Tergantung bahan",
+    "asal": "Eropa",
+    "deskripsi": "Piring berisi berbagai jenis keju."
+  },
+  {
+    "label": "Chicken curry",
+    "nama": "Chicken Curry",
+    "kategori": "Makanan utama / Daging",
+    "status_halal": "Tergantung bahan",
+    "asal": "India / Asia Tenggara",
+    "deskripsi": "Kari ayam dengan bumbu rempah-rempah."
+  },
+  {
+    "label": "Chicken quesadilla",
+    "nama": "Chicken Quesadilla",
+    "kategori": "Makanan utama / Roti",
+    "status_halal": "Tergantung bahan",
+    "asal": "Meksiko",
+    "deskripsi": "Tortilla isi ayam dan keju, dipanggang."
+  },
+  {
+    "label": "Chicken wings",
+    "nama": "Chicken Wings",
+    "kategori": "Appetizer / Daging",
+    "status_halal": "Tergantung bahan",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Sayap ayam goreng atau panggang dengan saus."
+  },
+  {
+    "label": "Chocolate cake",
+    "nama": "Chocolate Cake",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "-",
+    "deskripsi": "Kue cokelat lembut dan manis."
+  },
+  {
+    "label": "Chocolate mousse",
+    "nama": "Chocolate Mousse",
+    "kategori": "Dessert",
+    "status_halal": "-",
+    "asal": "Perancis",
+    "deskripsi": "Makanan penutup cokelat yang lembut dan ringan."
+  },
+  {
+    "label": "Churros",
+    "nama": "Churros",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "Spanyol",
+    "deskripsi": "Kue goreng panjang, biasanya disajikan dengan saus cokelat."
+  },
+  {
+    "label": "Clam chowder",
+    "nama": "Clam Chowder",
+    "kategori": "Sup",
+    "status_halal": "Tergantung bahan",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Sup kental berisi kerang, kentang, dan krim."
+  },
+  {
+    "label": "Club sandwich",
+    "nama": "Club Sandwich",
+    "kategori": "Roti / Sandwich",
+    "status_halal": "Tergantung bahan",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Sandwich bertingkat dengan daging, keju, sayuran, dan saus."
+  },
+  {
+    "label": "Crab cakes",
+    "nama": "Crab Cakes",
+    "kategori": "Appetizer / Seafood",
+    "status_halal": "Tergantung bahan",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Kue goreng dari daging kepiting dan bumbu."
+  },
+  {
+    "label": "Creme brulee",
+    "nama": "Creme Brulee",
+    "kategori": "Dessert",
+    "status_halal": "-",
+    "asal": "Perancis",
+    "deskripsi": "Puding vanila dengan lapisan gula karamel."
+  },
+  {
+    "label": "Croque madame",
+    "nama": "Croque Madame",
+    "kategori": "Roti / Sandwich",
+    "status_halal": "Tergantung bahan",
+    "asal": "Perancis",
+    "deskripsi": "Sandwich isi ham, keju, dan telur goreng di atasnya."
+  },
+  {
+    "label": "Cup cakes",
+    "nama": "Cup Cakes",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "-",
+    "deskripsi": "Kue kecil dalam cup kertas, dihias dengan krim."
+  },
+  {
+    "label": "Deviled eggs",
+    "nama": "Deviled Eggs",
+    "kategori": "Appetizer / Telur",
+    "status_halal": "Halal",
+    "asal": "-",
+    "deskripsi": "Telur rebus isi kuning telur yang dibumbui."
+  },
+  {
+    "label": "Donuts",
+    "nama": "Donuts",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "-",
+    "deskripsi": "Kue goreng berbentuk cincin, sering diberi topping manis."
+  },
+  {
+    "label": "Dumplings",
+    "nama": "Dumplings",
+    "kategori": "Appetizer / Roti",
+    "status_halal": "Tergantung bahan",
+    "asal": "Asia Timur",
+    "deskripsi": "Adonan tepung berisi daging atau sayuran, direbus atau dikukus."
+  },
+  {
+    "label": "Edamame",
+    "nama": "Edamame",
+    "kategori": "Appetizer / Sayuran",
+    "status_halal": "Halal",
+    "asal": "Jepang",
+    "deskripsi": "Kacang kedelai muda yang direbus dan diberi garam."
+  },
+  {
+    "label": "Eggs benedict",
+    "nama": "Eggs Benedict",
+    "kategori": "Sarapan / Telur",
+    "status_halal": "Tergantung bahan",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Roti muffin, telur rebus, ham, dan saus hollandaise."
+  },
+  {
+    "label": "Escargots",
+    "nama": "Escargots",
+    "kategori": "Appetizer / Seafood",
+    "status_halal": "-",
+    "asal": "Perancis",
+    "deskripsi": "Hidangan siput yang dimasak dengan bawang putih dan mentega."
+  },
+  {
+    "label": "Falafel",
+    "nama": "Falafel",
+    "kategori": "Appetizer / Sayuran",
+    "status_halal": "Halal",
+    "asal": "Timur Tengah",
+    "deskripsi": "Bola goreng dari kacang arab dan rempah-rempah."
+  },
+  {
+    "label": "Filet mignon",
+    "nama": "Filet Mignon",
+    "kategori": "Daging / Steak",
+    "status_halal": "Tergantung bahan",
+    "asal": "Perancis",
+    "deskripsi": "Potongan daging sapi yang sangat empuk, biasanya dipanggang."
+  },
+  {
+    "label": "Fish and chips",
+    "nama": "Fish and Chips",
+    "kategori": "Makanan utama / Ikan",
+    "status_halal": "Tergantung bahan",
+    "asal": "Inggris",
+    "deskripsi": "Ikan goreng tepung dan kentang goreng."
+  },
+  {
+    "label": "Foie gras",
+    "nama": "Foie Gras",
+    "kategori": "Appetizer / Daging",
+    "status_halal": "-",
+    "asal": "Perancis",
+    "deskripsi": "Hati angsa atau bebek yang diolah khusus."
+  },
+  {
+    "label": "French fries",
+    "nama": "French Fries",
+    "kategori": "Appetizer / Kentang",
+    "status_halal": "Halal",
+    "asal": "Belgia / Perancis",
+    "deskripsi": "Kentang goreng panjang dan renyah."
+  },
+  {
+    "label": "French onion soup",
+    "nama": "French Onion Soup",
+    "kategori": "Sup",
+    "status_halal": "Tergantung bahan",
+    "asal": "Perancis",
+    "deskripsi": "Sup bawang bombay dengan kaldu dan keju."
+  },
+  {
+    "label": "French toast",
+    "nama": "French Toast",
+    "kategori": "Sarapan / Roti",
+    "status_halal": "Halal",
+    "asal": "Perancis",
+    "deskripsi": "Roti yang dicelup telur dan susu, lalu digoreng."
+  },
+  {
+    "label": "Fried calamari",
+    "nama": "Fried Calamari",
+    "kategori": "Appetizer / Seafood",
+    "status_halal": "Tergantung bahan",
+    "asal": "Mediterania",
+    "deskripsi": "Cumi goreng tepung, disajikan dengan saus."
+  },
+  {
+    "label": "Fried rice",
+    "nama": "Fried Rice",
+    "kategori": "Makanan utama / Nasi",
+    "status_halal": "Tergantung bahan",
+    "asal": "Asia",
+    "deskripsi": "Nasi goreng dengan sayuran, telur, dan daging."
+  },
+  {
+    "label": "Frozen yogurt",
+    "nama": "Frozen Yogurt",
+    "kategori": "Dessert",
+    "status_halal": "-",
+    "asal": "-",
+    "deskripsi": "Yogurt beku dengan rasa manis dan asam."
+  },
+  {
+    "label": "Garlic bread",
+    "nama": "Garlic Bread",
+    "kategori": "Appetizer / Roti",
+    "status_halal": "Halal",
+    "asal": "Italia",
+    "deskripsi": "Roti panggang dengan mentega dan bawang putih."
+  },
+  {
+    "label": "Gnocchi",
+    "nama": "Gnocchi",
+    "kategori": "Makanan utama / Pasta",
+    "status_halal": "Halal",
+    "asal": "Italia",
+    "deskripsi": "Pasta kecil dari kentang dan tepung."
+  },
+  {
+    "label": "Greek salad",
+    "nama": "Greek Salad",
+    "kategori": "Salad",
+    "status_halal": "Halal",
+    "asal": "Yunani",
+    "deskripsi": "Salad tomat, mentimun, zaitun, dan keju feta."
+  },
+  {
+    "label": "Grilled cheese sandwich",
+    "nama": "Grilled Cheese Sandwich",
+    "kategori": "Roti / Sandwich",
+    "status_halal": "Halal",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Sandwich isi keju yang dipanggang hingga meleleh."
+  },
+  {
+    "label": "Grilled salmon",
+    "nama": "Grilled Salmon",
+    "kategori": "Makanan utama / Ikan",
+    "status_halal": "Halal",
+    "asal": "-",
+    "deskripsi": "Ikan salmon yang dipanggang."
+  },
+  {
+    "label": "Guacamole",
+    "nama": "Guacamole",
+    "kategori": "Appetizer / Saus",
+    "status_halal": "Halal",
+    "asal": "Meksiko",
+    "deskripsi": "Saus alpukat dengan bawang, tomat, dan jeruk nipis."
+  },
+  {
+    "label": "Gyoza",
+    "nama": "Gyoza",
+    "kategori": "Appetizer / Roti",
+    "status_halal": "Tergantung bahan",
+    "asal": "Jepang",
+    "deskripsi": "Pangsit Jepang berisi daging atau sayuran."
+  },
+  {
+    "label": "Hamburger",
+    "nama": "Hamburger",
+    "kategori": "Fast food / Daging",
+    "status_halal": "Tergantung bahan (daging halal dan tanpa alkohol)",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Roti lapis yang berisi daging sapi cincang, sayuran (seperti selada dan tomat), serta saus seperti mayones dan mustard. Umumnya disajikan sebagai makanan cepat saji."
+  },
+  {
+    "label": "Hot and sour soup",
+    "nama": "Hot and Sour Soup",
+    "kategori": "Sup",
+    "status_halal": "Tergantung bahan",
+    "asal": "Tiongkok",
+    "deskripsi": "Sup asam pedas dengan jamur, tahu, dan daging."
+  },
+  {
+    "label": "Hot dog",
+    "nama": "Hot Dog",
+    "kategori": "Fast food / Daging",
+    "status_halal": "Tergantung bahan",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Roti isi sosis dan saus."
+  },
+  {
+    "label": "Huevos rancheros",
+    "nama": "Huevos Rancheros",
+    "kategori": "Sarapan / Telur",
+    "status_halal": "Tergantung bahan",
+    "asal": "Meksiko",
+    "deskripsi": "Telur goreng di atas tortilla dengan saus tomat pedas."
+  },
+  {
+    "label": "Hummus",
+    "nama": "Hummus",
+    "kategori": "Appetizer / Saus",
+    "status_halal": "Halal",
+    "asal": "Timur Tengah",
+    "deskripsi": "Saus dari kacang arab, tahini, lemon, dan bawang putih."
+  },
+  {
+    "label": "Ice cream",
+    "nama": "Ice Cream",
+    "kategori": "Dessert",
+    "status_halal": "-",
+    "asal": "-",
+    "deskripsi": "Makanan penutup beku dari susu dan gula."
+  },
+  {
+    "label": "Lasagna",
+    "nama": "Lasagna",
+    "kategori": "Makanan utama / Pasta",
+    "status_halal": "Tergantung bahan",
+    "asal": "Italia",
+    "deskripsi": "Pasta berlapis saus daging, keju, dan tomat."
+  },
+  {
+    "label": "Lobster bisque",
+    "nama": "Lobster Bisque",
+    "kategori": "Sup / Seafood",
+    "status_halal": "Tergantung bahan",
+    "asal": "Perancis",
+    "deskripsi": "Sup kental dari lobster dan krim."
+  },
+  {
+    "label": "Lobster roll sandwich",
+    "nama": "Lobster Roll Sandwich",
+    "kategori": "Roti / Seafood",
+    "status_halal": "Tergantung bahan",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Sandwich isi daging lobster dan saus."
+  },
+  {
+    "label": "Macaroni and cheese",
+    "nama": "Macaroni and Cheese",
+    "kategori": "Makanan utama / Pasta",
+    "status_halal": "Halal",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Pasta makaroni dengan saus keju."
+  },
+  {
+    "label": "Macarons",
+    "nama": "Macarons",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "Perancis",
+    "deskripsi": "Kue kecil berwarna-warni dari putih telur dan gula."
+  },
+  {
+    "label": "Miso soup",
+    "nama": "Miso Soup",
+    "kategori": "Sup",
+    "status_halal": "Halal",
+    "asal": "Jepang",
+    "deskripsi": "Sup kaldu miso dengan tahu dan rumput laut."
+  },
+  {
+    "label": "Mussels",
+    "nama": "Mussels",
+    "kategori": "Seafood",
+    "status_halal": "Halal",
+    "asal": "-",
+    "deskripsi": "Kerang hijau atau biru yang dimasak dengan bumbu."
+  },
+  {
+    "label": "Nachos",
+    "nama": "Nachos",
+    "kategori": "Appetizer / Snack",
+    "status_halal": "Tergantung bahan",
+    "asal": "Meksiko",
+    "deskripsi": "Keripik tortilla dengan keju, saus, dan topping."
+  },
+  {
+    "label": "Omelette",
+    "nama": "Omelette",
+    "kategori": "Sarapan / Telur",
+    "status_halal": "Halal",
+    "asal": "-",
+    "deskripsi": "Telur dadar dengan isian sayur, keju, atau daging."
+  },
+  {
+    "label": "Onion rings",
+    "nama": "Onion Rings",
+    "kategori": "Appetizer / Snack",
+    "status_halal": "Halal",
+    "asal": "-",
+    "deskripsi": "Irisan bawang bombay goreng tepung."
+  },
+  {
+    "label": "Oysters",
+    "nama": "Oysters",
+    "kategori": "Seafood",
+    "status_halal": "Halal",
+    "asal": "-",
+    "deskripsi": "Kerang mentah atau dimasak, disajikan dengan saus."
+  },
+  {
+    "label": "Pad thai",
+    "nama": "Pad Thai",
+    "kategori": "Makanan utama / Mie",
+    "status_halal": "Tergantung bahan",
+    "asal": "Thailand",
+    "deskripsi": "Mie goreng khas Thailand dengan udang, telur, dan tauge."
+  },
+  {
+    "label": "Paella",
+    "nama": "Paella",
+    "kategori": "Makanan utama / Nasi",
+    "status_halal": "Tergantung bahan",
+    "asal": "Spanyol",
+    "deskripsi": "Nasi berbumbu dengan seafood, ayam, dan sayuran."
+  },
+  {
+    "label": "Pancakes",
+    "nama": "Pancakes",
+    "kategori": "Sarapan / Kue",
+    "status_halal": "Halal",
+    "asal": "-",
+    "deskripsi": "Kue dadar tipis, biasanya disajikan dengan sirup."
+  },
+  {
+    "label": "Panna cotta",
+    "nama": "Panna Cotta",
+    "kategori": "Dessert",
+    "status_halal": "-",
+    "asal": "Italia",
+    "deskripsi": "Puding susu khas Italia yang lembut."
+  },
+  {
+    "label": "Peking duck",
+    "nama": "Peking Duck",
+    "kategori": "Makanan utama / Daging",
+    "status_halal": "Tergantung bahan",
+    "asal": "Tiongkok",
+    "deskripsi": "Bebek panggang khas Beijing dengan kulit renyah."
+  },
+  {
+    "label": "Pho",
+    "nama": "Pho",
+    "kategori": "Makanan utama / Mie",
+    "status_halal": "Tergantung bahan",
+    "asal": "Vietnam",
+    "deskripsi": "Sup mie beras dengan daging sapi atau ayam."
+  },
+  {
+    "label": "Pizza",
+    "nama": "Pizza",
+    "kategori": "Makanan utama / Roti",
+    "status_halal": "Tergantung bahan (daging halal dan tanpa alkohol)",
+    "asal": "Italia",
+    "deskripsi": "Roti bundar pipih yang dipanggang dan diberi topping saus tomat, keju, daging, dan sayuran. Merupakan makanan khas Italia yang populer di seluruh dunia."
+  },
+  {
+    "label": "Pork chop",
+    "nama": "Pork Chop",
+    "kategori": "Makanan utama / Daging",
+    "status_halal": "Tidak halal",
+    "asal": "-",
+    "deskripsi": "Daging babi bagian tulang iga yang dipanggang atau digoreng."
+  },
+  {
+    "label": "Poutine",
+    "nama": "Poutine",
+    "kategori": "Appetizer / Kentang",
+    "status_halal": "Tergantung bahan",
+    "asal": "Kanada",
+    "deskripsi": "Kentang goreng dengan saus gravy dan keju."
+  },
+  {
+    "label": "Prime rib",
+    "nama": "Prime Rib",
+    "kategori": "Makanan utama / Daging",
+    "status_halal": "Tergantung bahan",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Iga sapi panggang dengan bumbu."
+  },
+  {
+    "label": "Pulled pork sandwich",
+    "nama": "Pulled Pork Sandwich",
+    "kategori": "Roti / Daging",
+    "status_halal": "Tidak halal",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Sandwich isi daging babi suwir dan saus BBQ."
+  },
+  {
+    "label": "Ramen",
+    "nama": "Ramen",
+    "kategori": "Makanan utama / Mie",
+    "status_halal": "Tergantung bahan",
+    "asal": "Jepang",
+    "deskripsi": "Mie kuah Jepang dengan topping daging, telur, dan sayuran."
+  },
+  {
+    "label": "Ravioli",
+    "nama": "Ravioli",
+    "kategori": "Makanan utama / Pasta",
+    "status_halal": "Tergantung bahan",
+    "asal": "Italia",
+    "deskripsi": "Pasta isi daging, keju, atau sayuran."
+  },
+  {
+    "label": "Red velvet cake",
+    "nama": "Red Velvet Cake",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "-",
+    "deskripsi": "Kue berwarna merah dengan krim keju."
+  },
+  {
+    "label": "Risotto",
+    "nama": "Risotto",
+    "kategori": "Makanan utama / Nasi",
+    "status_halal": "Tergantung bahan",
+    "asal": "Italia",
+    "deskripsi": "Nasi kental khas Italia dengan kaldu dan keju."
+  },
+  {
+    "label": "Samosa",
+    "nama": "Samosa",
+    "kategori": "Appetizer / Gorengan",
+    "status_halal": "Halal",
+    "asal": "India",
+    "deskripsi": "Gorengan segitiga isi kentang, kacang polong, dan rempah."
+  },
+  {
+    "label": "Sashimi",
+    "nama": "Sashimi",
+    "kategori": "Appetizer / Ikan",
+    "status_halal": "Tergantung bahan",
+    "asal": "Jepang",
+    "deskripsi": "Irisan tipis ikan mentah segar."
+  },
+  {
+    "label": "Scallops",
+    "nama": "Scallops",
+    "kategori": "Seafood",
+    "status_halal": "Halal",
+    "asal": "-",
+    "deskripsi": "Kerang laut yang dimasak dengan bumbu."
+  },
+  {
+    "label": "Seaweed salad",
+    "nama": "Seaweed Salad",
+    "kategori": "Salad",
+    "status_halal": "Halal",
+    "asal": "Jepang",
+    "deskripsi": "Salad rumput laut dengan bumbu asam manis."
+  },
+  {
+    "label": "Shrimp and grits",
+    "nama": "Shrimp and Grits",
+    "kategori": "Makanan utama / Seafood",
+    "status_halal": "Tergantung bahan",
+    "asal": "Amerika Serikat",
+    "deskripsi": "Udang tumis dengan bubur jagung."
+  },
+  {
+    "label": "Spaghetti bolognese",
+    "nama": "Spaghetti Bolognese",
+    "kategori": "Makanan utama / Pasta",
+    "status_halal": "Tergantung bahan",
+    "asal": "Italia",
+    "deskripsi": "Spaghetti dengan saus daging cincang dan tomat."
+  },
+  {
+    "label": "Spaghetti carbonara",
+    "nama": "Spaghetti Carbonara",
+    "kategori": "Makanan utama / Pasta",
+    "status_halal": "Tergantung bahan",
+    "asal": "Italia",
+    "deskripsi": "Spaghetti dengan saus telur, keju, dan daging."
+  },
+  {
+    "label": "Spring rolls",
+    "nama": "Spring Rolls",
+    "kategori": "Appetizer / Gorengan",
+    "status_halal": "Tergantung bahan",
+    "asal": "Asia Timur",
+    "deskripsi": "Lumpia goreng isi sayuran atau daging."
+  },
+  {
+    "label": "Steak",
+    "nama": "Steak",
+    "kategori": "Makanan utama / Daging",
+    "status_halal": "Tergantung bahan",
+    "asal": "-",
+    "deskripsi": "Daging sapi panggang atau goreng."
+  },
+  {
+    "label": "Strawberry shortcake",
+    "nama": "Strawberry Shortcake",
+    "kategori": "Dessert / Kue",
+    "status_halal": "-",
+    "asal": "-",
+    "deskripsi": "Kue lembut dengan krim dan stroberi."
+  },
+  {
+    "label": "Sushi",
+    "nama": "Sushi",
+    "kategori": "Makanan utama / Ikan",
+    "status_halal": "Tergantung bahan (ikan halal, tanpa alkohol)",
+    "asal": "Jepang",
+    "deskripsi": "Hidangan khas Jepang berupa nasi yang dibentuk bersama lauk seperti ikan, makanan laut, dan sayuran."
+  },
+  {
+    "label": "Tacos",
+    "nama": "Tacos",
+    "kategori": "Makanan utama / Roti",
+    "status_halal": "Tergantung bahan",
+    "asal": "Meksiko",
+    "deskripsi": "Tortilla isi daging, sayuran, dan saus."
+  },
+  {
+    "label": "Takoyaki",
+    "nama": "Takoyaki",
+    "kategori": "Appetizer / Gorengan",
+    "status_halal": "Tergantung bahan",
+    "asal": "Jepang",
+    "deskripsi": "Bola adonan tepung isi potongan gurita."
+  },
+  {
+    "label": "Tiramisu",
+    "nama": "Tiramisu",
+    "kategori": "Dessert / Kue",
+    "status_halal": "Tergantung bahan",
+    "asal": "Italia",
+    "deskripsi": "Kue berlapis krim keju, kopi, dan cokelat."
+  },
+  {
+    "label": "Tuna tartare",
+    "nama": "Tuna Tartare",
+    "kategori": "Appetizer / Ikan",
+    "status_halal": "Tergantung bahan",
+    "asal": "-",
+    "deskripsi": "Ikan tuna mentah cincang dengan bumbu."
+  },
+  {
+    "label": "Waffles",
+    "nama": "Waffles",
+    "kategori": "Sarapan / Kue",
+    "status_halal": "Halal",
+    "asal": "Belgia",
+    "deskripsi": "Kue panggang dengan pola kotak, disajikan dengan topping manis."
+  }
+]
