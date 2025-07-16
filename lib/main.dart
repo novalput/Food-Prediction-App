@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:http/http.dart' as http;
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -7,6 +8,7 @@ import 'food_info.dart';
 import 'package:tflite_flutter/tflite_flutter.dart';
 import 'package:image/image.dart' as img;
 import 'dart:typed_data';
+import 'package:http_parser/http_parser.dart';
 
 void main() {
   runApp(const MainApp());
@@ -115,58 +117,59 @@ class _ImageUploadPageState extends State<ImageUploadPage> {
       _isLoading = true;
     });
 
-    // Baca file gambar dan resize ke 224x224
-    final bytes = await _selectedImage!.readAsBytes();
-    img.Image? oriImage = img.decodeImage(bytes);
-    img.Image resized = img.copyResize(oriImage!, width: 224, height: 224);
+    try {
+      var request = http.MultipartRequest(
+        'POST',
+        Uri.parse('https://f65b89898776.ngrok-free.app/predict'),
+      );
+      request.files.add(
+        await http.MultipartFile.fromPath(
+          'file', // harus 'file' sesuai api.py
+          _selectedImage!.path,
+          contentType: MediaType(
+            'image',
+            'jpeg',
+          ), // atau sesuaikan dengan tipe file
+        ),
+      );
 
-    // Buat Float32List untuk input tensor
-    var input = Float32List(1 * 224 * 224 * 3);
-    int index = 0;
-    for (int y = 0; y < 224; y++) {
-      for (int x = 0; x < 224; x++) {
-        final pixel = resized.getPixel(x, y);
-        input[index++] = pixel.r / 255.0;
-        input[index++] = pixel.g / 255.0;
-        input[index++] = pixel.b / 255.0;
+      var response = await request.send();
+      var responseBody = await response.stream.bytesToString();
+
+      if (response.statusCode == 200) {
+        final data = jsonDecode(responseBody);
+        int classIndex = data['class'];
+        double confidence = (data['confidence'] ?? 0.0) * 100;
+
+        String detectedLabel = (classIndex >= 0 && classIndex < _labels.length)
+            ? _labels[classIndex]
+            : 'Unknown';
+
+        final info = _getFoodInfo(detectedLabel);
+
+        setState(() {
+          _isLoading = false;
+          _predictionResult =
+              '🍽️ Nama Makanan: ${info?.nama}\n\n'
+              'Kategori: ${info?.kategori}\n\n'
+              'Status Halal: ${info?.statusHalal}\n\n'
+              'Asal: ${info?.asal}\n\n'
+              'Deskripsi:\n${info?.deskripsi}\n\n'
+              'Confidence: ${confidence.toStringAsFixed(1)}%';
+        });
+      } else {
+        setState(() {
+          _isLoading = false;
+          _predictionResult =
+              'Gagal memproses gambar (status ${response.statusCode})';
+        });
       }
+    } catch (e) {
+      setState(() {
+        _isLoading = false;
+        _predictionResult = 'Terjadi error: $e';
+      });
     }
-
-    // Bentuk input sesuai shape [1, 224, 224, 3]
-    var inputTensor = input.buffer.asFloat32List();
-
-    // Output
-    var output = List.filled(_labels.length, 0.0).reshape([1, _labels.length]);
-
-    final stopwatch = Stopwatch()..start();
-    _interpreter.run(inputTensor.reshape([1, 224, 224, 3]), output);
-    print('Inferensi selesai dalam: ${stopwatch.elapsedMilliseconds} ms');
-
-    // Get result
-    var scores = output[0];
-    int maxIndex = 0;
-    double maxScore = scores[0];
-    for (int i = 1; i < scores.length; i++) {
-      if (scores[i] > maxScore) {
-        maxScore = scores[i];
-        maxIndex = i;
-      }
-    }
-    String detectedLabel = _labels[maxIndex];
-    double confidence = maxScore * 100;
-
-    final info = _getFoodInfo(detectedLabel);
-
-    setState(() {
-      _isLoading = false;
-      _predictionResult =
-          '🍽️ Nama Makanan: ${info?.nama}\n\n'
-          'Kategori: ${info?.kategori}\n\n'
-          'Status Halal: ${info?.statusHalal}\n\n'
-          'Asal: ${info?.asal}\n\n'
-          'Deskripsi:\n${info?.deskripsi}\n\n'
-          'Confidence: ${confidence.toStringAsFixed(1)}%';
-    });
   }
 
   void _showImageSourceDialog() {
