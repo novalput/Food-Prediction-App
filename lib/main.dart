@@ -120,7 +120,7 @@ class _ImageUploadPageState extends State<ImageUploadPage> {
     try {
       var request = http.MultipartRequest(
         'POST',
-        Uri.parse('https://f65b89898776.ngrok-free.app/predict'),
+        Uri.parse('https://witty-urchin-hideously.ngrok-free.app/predict'),
       );
       request.files.add(
         await http.MultipartFile.fromPath(
